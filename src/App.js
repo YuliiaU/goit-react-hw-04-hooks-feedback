@@ -4,6 +4,7 @@ import Statistics from "./components/Statistics";
 import FeedbackOptions from "./components/FeedbackOptions";
 import Notification from "./components/Notification";
 
+
 export default function App() {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
